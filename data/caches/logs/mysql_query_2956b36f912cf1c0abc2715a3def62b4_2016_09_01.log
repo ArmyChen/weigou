@@ -1,0 +1,1214 @@
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('2325b7940ee752dbecec645cc6a63e75', '1472659278', '58.248.238.47', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472659278', ip = '58.248.238.47', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472657478
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472657478
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472657478
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT `ec_salt` FROM `weigou`.`site_admin_user`WHERE user_name = 'admin'
+
+SELECT user_id, user_name, password, last_login, action_list, last_login,suppliers_id,ec_salt FROM `weigou`.`site_admin_user` WHERE user_name = 'admin' AND password = '422b6fabf60576964c5352f35a1f02d7'
+
+UPDATE `weigou`.`site_admin_user` SET last_login='1472630486', last_ip='58.248.238.47' WHERE user_id='1'
+
+SELECT DISTINCT session_id FROM `weigou`.`site_cart` AS c, `weigou`.`site_sessions` AS s WHERE c.session_id = s.sesskey 
+
+DELETE FROM `weigou`.`site_cart` WHERE session_id NOT  IN ('') 
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472659286', ip = '58.248.238.47', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";s:10:\"1472624727\";s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472657486
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472657486
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472657486
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT message_id, sender_id, receiver_id, sent_time, readed, deleted, title, message, user_name FROM `weigou`.`site_admin_message` AS a, `weigou`.`site_admin_user` AS b WHERE a.sender_id = b.user_id AND a.receiver_id = '1' AND a.readed = 0 AND deleted = 0 ORDER BY a.sent_time DESC
+
+SELECT pay_id, is_cod FROM `weigou`.`site_payment` WHERE enabled = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE 1  AND order_status  IN ('1','5')  AND shipping_status  IN ('1','2')  AND pay_status  IN ('2','1')  
+
+SELECT pay_id FROM `weigou`.`site_payment` WHERE is_cod = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE 1  AND   order_status  IN ('1','5','6')  AND   shipping_status  IN ('0','3','5')  AND ( pay_status  IN ('2','1')  OR pay_id  IN ('') ) 
+
+SELECT pay_id FROM `weigou`.`site_payment` WHERE is_cod = 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE 1  AND   order_status  IN ('1','5')  AND   pay_status = '0' AND ( shipping_status  IN ('1','2')  OR pay_id  IN ('1','2','3') ) 
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE 1  AND order_status = '0' 
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE  shipping_status=4
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `weigou`.`site_order_info`
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1472630487' AND promote_end_date >= '1472630487' AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1472630487' AND promote_end_date >= '1472630487' AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `weigou`.`site_stats` WHERE access_time > 1472630400
+
+SELECT count(*) FROM `weigou`.`site_sessions`
+
+SELECT COUNT(f.msg_id) FROM `weigou`.`site_feedback` AS f LEFT JOIN `weigou`.`site_feedback` AS r ON r.parent_id=f.msg_id WHERE f.parent_id=0 AND ISNULL(r.msg_id) 
+
+SELECT COUNT(*) FROM `weigou`.`site_comment` WHERE status = 0 AND parent_id = 0
+
+SELECT COUNT(*) FROM `weigou`.`site_booking_goods` WHERE is_dispose = 0
+
+SELECT COUNT(*) FROM `weigou`.`site_user_account` WHERE process_type = 1 AND is_paid = 0 
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `weigou`.`site_order_info`
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_users`
+
+SELECT value FROM `weigou`.`site_shop_config` WHERE code = 'template'
+
+SELECT value FROM `weigou`.`site_shop_config` WHERE code = 'stylename'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472624727'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472624727
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472659288', ip = '58.248.238.47', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472630488;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472657488
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472657488
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT * FROM `weigou`.`site_drp_config`
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472657490
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472657490
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472657490
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SHOW TABLES LIKE 'site\_%'
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_template` WHERE 1  AND theme <> 'default'  AND theme <> 'bak' 
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT FLOOR((access_time - 1472025600) / (24 * 3600)) AS sn, access_time, COUNT(*) AS access_count FROM `weigou`.`site_stats` WHERE access_time >= '1472025600' AND access_time <= 1472716800 GROUP BY sn
+
+SELECT COUNT(*) AS access_count, area FROM `weigou`.`site_stats` WHERE access_time >= '1472025600' AND access_time < 1472716800 GROUP BY area ORDER BY access_count DESC LIMIT 20
+
+SELECT COUNT(*) AS access_count, referer_domain FROM `weigou`.`site_stats` WHERE access_time >= '1472025600' AND access_time <= 1472716800 GROUP BY referer_domain ORDER BY access_count DESC LIMIT 20
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472659320', ip = '58.248.238.47', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472630488;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472657520
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT bonus_type_id, COUNT(*) AS sent_count FROM `weigou`.`site_user_bonus` GROUP BY bonus_type_id
+
+SELECT bonus_type_id, COUNT(*) AS used_count FROM `weigou`.`site_user_bonus` WHERE used_time > 0 GROUP BY bonus_type_id
+
+SELECT COUNT(*) FROM `weigou`.`site_bonus_type`
+
+SELECT * FROM `weigou`.`site_bonus_type` ORDER BY type_id DESC LIMIT 15
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT c.*, COUNT(s.cat_id) AS has_children, COUNT(a.article_id) AS aricle_num  FROM `weigou`.`site_article_cat` AS c LEFT JOIN `weigou`.`site_article_cat` AS s ON s.parent_id=c.cat_id LEFT JOIN `weigou`.`site_article` AS a ON a.cat_id=c.cat_id GROUP BY c.cat_id  ORDER BY parent_id, sort_order ASC
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472657522
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT rank_id, rank_name, min_points FROM `weigou`.`site_user_rank` ORDER BY min_points ASC 
+
+SELECT COUNT(*) FROM `weigou`.`site_users` WHERE 1 
+
+SELECT user_id, user_name,sex,birthday,mobile_phone,email, is_validated, user_money, frozen_money, rank_points, pay_points, reg_time  FROM `weigou`.`site_users` WHERE 1  ORDER by user_id DESC LIMIT 0,15
+
+DESC `weigou`.`site_sessions_data`
+
+INSERT INTO `weigou`.`site_sessions_data` (sesskey, expiry, data) VALUES ('2325b7940ee752dbecec645cc6a63e75', '1472659323', 'a:5:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472630488;s:12:\"suppliers_id\";s:1:\"0\";s:9:\"user_list\";a:8:{i:0;a:12:{s:7:\"user_id\";s:1:\"9\";s:9:\"user_name\";s:15:\"wx_147264465142\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147264465142@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-31\";}i:1;a:12:{s:7:\"user_id\";s:1:\"8\";s:9:\"user_name\";s:15:\"wx_147252388052\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147252388052@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-30\";}i:2;a:12:{s:7:\"user_id\";s:1:\"7\";s:9:\"user_name\";s:15:\"wx_147235451242\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147235451242@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-28\";}i:3;a:12:{s:7:\"user_id\";s:1:\"6\";s:9:\"user_name\";s:4:\"list\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:11:\"list@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-27\";}i:4;a:12:{s:7:\"user_id\";s:1:\"5\";s:9:\"user_name\";s:15:\"wx_147220851564\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147220851564@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-26\";}i:5;a:12:{s:7:\"user_id\";s:1:\"4\";s:9:\"user_name\";s:15:\"wx_147212058316\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147212058316@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:6;a:12:{s:7:\"user_id\";s:1:\"3\";s:9:\"user_name\";s:4:\"test\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:20:\"0981472061609@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:7;a:12:{s:7:\"user_id\";s:1:\"1\";s:9:\"user_name\";s:15:\"wx_147202641123\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147202641123@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:5:\"12.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:2:\"16\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-24\";}}}')ON DUPLICATE KEY UPDATE expiry = expiry + 1472659323, data = 'a:5:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472630488;s:12:\"suppliers_id\";s:1:\"0\";s:9:\"user_list\";a:8:{i:0;a:12:{s:7:\"user_id\";s:1:\"9\";s:9:\"user_name\";s:15:\"wx_147264465142\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147264465142@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-31\";}i:1;a:12:{s:7:\"user_id\";s:1:\"8\";s:9:\"user_name\";s:15:\"wx_147252388052\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147252388052@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-30\";}i:2;a:12:{s:7:\"user_id\";s:1:\"7\";s:9:\"user_name\";s:15:\"wx_147235451242\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147235451242@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-28\";}i:3;a:12:{s:7:\"user_id\";s:1:\"6\";s:9:\"user_name\";s:4:\"list\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:11:\"list@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-27\";}i:4;a:12:{s:7:\"user_id\";s:1:\"5\";s:9:\"user_name\";s:15:\"wx_147220851564\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147220851564@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-26\";}i:5;a:12:{s:7:\"user_id\";s:1:\"4\";s:9:\"user_name\";s:15:\"wx_147212058316\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147212058316@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:6;a:12:{s:7:\"user_id\";s:1:\"3\";s:9:\"user_name\";s:4:\"test\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:20:\"0981472061609@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:7;a:12:{s:7:\"user_id\";s:1:\"1\";s:9:\"user_name\";s:15:\"wx_147202641123\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147202641123@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:5:\"12.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:2:\"16\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-24\";}}}'
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472659323', ip = '58.248.238.47', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = '' WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT agency_id FROM `weigou`.`site_admin_user` WHERE user_id = '1'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` AS o WHERE 1 
+
+SELECT o.order_id, o.order_sn, o.add_time, o.order_status, o.shipping_status, o.order_amount, o.money_paid,o.pay_status, o.consignee, o.address, o.email, o.tel, o.extension_code, o.extension_id, (   o.goods_amount + o.tax + o.shipping_fee + o.insure_fee + o.pay_fee + o.pack_fee + o.card_fee ) AS total_fee, IFNULL(u.user_name, '匿名用户') AS buyer  FROM `weigou`.`site_order_info` AS o  LEFT JOIN `weigou`.`site_users` AS u ON u.user_id=o.user_id WHERE 1  ORDER BY add_time DESC  LIMIT 0,15
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472657524
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472657526
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT message_id, sender_id, receiver_id, sent_time, readed, deleted, title, message, user_name FROM `weigou`.`site_admin_message` AS a, `weigou`.`site_admin_user` AS b WHERE a.sender_id = b.user_id AND a.receiver_id = '1' AND a.readed = 0 AND deleted = 0 ORDER BY a.sent_time DESC
+
+SELECT pay_id, is_cod FROM `weigou`.`site_payment` WHERE enabled = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE 1  AND order_status  IN ('1','5')  AND shipping_status  IN ('1','2')  AND pay_status  IN ('2','1')  
+
+SELECT pay_id FROM `weigou`.`site_payment` WHERE is_cod = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE 1  AND   order_status  IN ('1','5','6')  AND   shipping_status  IN ('0','3','5')  AND ( pay_status  IN ('2','1')  OR pay_id  IN ('') ) 
+
+SELECT pay_id FROM `weigou`.`site_payment` WHERE is_cod = 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE 1  AND   order_status  IN ('1','5')  AND   pay_status = '0' AND ( shipping_status  IN ('1','2')  OR pay_id  IN ('1','2','3') ) 
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE 1  AND order_status = '0' 
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE  shipping_status=4
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `weigou`.`site_order_info`
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1472630528' AND promote_end_date >= '1472630528' AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1472630528' AND promote_end_date >= '1472630528' AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `weigou`.`site_stats` WHERE access_time > 1472630400
+
+SELECT count(*) FROM `weigou`.`site_sessions`
+
+SELECT COUNT(f.msg_id) FROM `weigou`.`site_feedback` AS f LEFT JOIN `weigou`.`site_feedback` AS r ON r.parent_id=f.msg_id WHERE f.parent_id=0 AND ISNULL(r.msg_id) 
+
+SELECT COUNT(*) FROM `weigou`.`site_comment` WHERE status = 0 AND parent_id = 0
+
+SELECT COUNT(*) FROM `weigou`.`site_booking_goods` WHERE is_dispose = 0
+
+SELECT COUNT(*) FROM `weigou`.`site_user_account` WHERE process_type = 1 AND is_paid = 0 
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472657528
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `weigou`.`site_order_info`
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_users`
+
+SELECT value FROM `weigou`.`site_shop_config` WHERE code = 'template'
+
+SELECT value FROM `weigou`.`site_shop_config` WHERE code = 'stylename'
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_template` WHERE 1  AND theme <> 'default'  AND theme <> 'bak' 
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472657530
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472657530
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SHOW TABLES LIKE 'site\_%'
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472657532
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '2325b7940ee752dbecec645cc6a63e75'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT * FROM `weigou`.`site_drp_config`
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472657534
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('d304c032b09a3d8ed9d3d633f3e7b6ea', '1472695538', '120.85.221.54', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472695539', ip = '120.85.221.54', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('e837ce3c0996273a608dfcf88522ce59', '1472695559', '101.226.51.230', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472695559', ip = '101.226.51.230', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = 'e837ce3c0996273a608dfcf88522ce59' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT `ec_salt` FROM `weigou`.`site_admin_user`WHERE user_name = 'admin'
+
+SELECT user_id, user_name, password, last_login, action_list, last_login,suppliers_id,ec_salt FROM `weigou`.`site_admin_user` WHERE user_name = 'admin' AND password = '422b6fabf60576964c5352f35a1f02d7'
+
+UPDATE `weigou`.`site_admin_user` SET last_login='1472666773', last_ip='120.85.221.54' WHERE user_id='1'
+
+SELECT DISTINCT session_id FROM `weigou`.`site_cart` AS c, `weigou`.`site_sessions` AS s WHERE c.session_id = s.sesskey 
+
+DELETE FROM `weigou`.`site_cart` WHERE session_id NOT  IN ('') 
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472695573', ip = '120.85.221.54', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";s:10:\"1472630486\";s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472693774
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472693774
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT message_id, sender_id, receiver_id, sent_time, readed, deleted, title, message, user_name FROM `weigou`.`site_admin_message` AS a, `weigou`.`site_admin_user` AS b WHERE a.sender_id = b.user_id AND a.receiver_id = '1' AND a.readed = 0 AND deleted = 0 ORDER BY a.sent_time DESC
+
+SELECT pay_id, is_cod FROM `weigou`.`site_payment` WHERE enabled = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE 1  AND order_status  IN ('1','5')  AND shipping_status  IN ('1','2')  AND pay_status  IN ('2','1')  
+
+SELECT pay_id FROM `weigou`.`site_payment` WHERE is_cod = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE 1  AND   order_status  IN ('1','5','6')  AND   shipping_status  IN ('0','3','5')  AND ( pay_status  IN ('2','1')  OR pay_id  IN ('') ) 
+
+SELECT pay_id FROM `weigou`.`site_payment` WHERE is_cod = 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE 1  AND   order_status  IN ('1','5')  AND   pay_status = '0' AND ( shipping_status  IN ('1','2')  OR pay_id  IN ('1','2','3') ) 
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE 1  AND order_status = '0' 
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE  shipping_status=4
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `weigou`.`site_order_info`
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1472666775' AND promote_end_date >= '1472666775' AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1472666775' AND promote_end_date >= '1472666775' AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `weigou`.`site_stats` WHERE access_time > 1472630400
+
+SELECT count(*) FROM `weigou`.`site_sessions`
+
+SELECT COUNT(f.msg_id) FROM `weigou`.`site_feedback` AS f LEFT JOIN `weigou`.`site_feedback` AS r ON r.parent_id=f.msg_id WHERE f.parent_id=0 AND ISNULL(r.msg_id) 
+
+SELECT COUNT(*) FROM `weigou`.`site_comment` WHERE status = 0 AND parent_id = 0
+
+SELECT COUNT(*) FROM `weigou`.`site_booking_goods` WHERE is_dispose = 0
+
+SELECT COUNT(*) FROM `weigou`.`site_user_account` WHERE process_type = 1 AND is_paid = 0 
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `weigou`.`site_order_info`
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_users`
+
+SELECT value FROM `weigou`.`site_shop_config` WHERE code = 'template'
+
+SELECT value FROM `weigou`.`site_shop_config` WHERE code = 'stylename'
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472693776
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472630486'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472630486
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472695577', ip = '120.85.221.54', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472666777;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472693778
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472693778
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('17ef0063166c01d9c414a9e9a78bacbb', '1472695718', '101.226.66.180', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472695718', ip = '101.226.66.180', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = '17ef0063166c01d9c414a9e9a78bacbb' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472693918
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('d9215b52d2f62947aa158e3801a86572', '1472695718', '101.226.125.105', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472695718', ip = '101.226.125.105', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = 'd9215b52d2f62947aa158e3801a86572' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472693918
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '17ef0063166c01d9c414a9e9a78bacbb'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472693918
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd9215b52d2f62947aa158e3801a86572'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('ac4096c79183d20eafa9fa6d125cc376', '1472695724', '61.151.218.119', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472695724', ip = '61.151.218.119', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = 'ac4096c79183d20eafa9fa6d125cc376' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472693924
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'ac4096c79183d20eafa9fa6d125cc376'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472693924
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472666777'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472666777
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472695758', ip = '120.85.221.54', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472666958;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472693958
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('8b65476bc343bacedbc14666aefec26f', '1472695763', '101.226.33.203', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472695763', ip = '101.226.33.203', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = '8b65476bc343bacedbc14666aefec26f' LIMIT 1
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('742153fd2b112b5b3420abeb982e45ac', '1472695764', '101.226.33.223', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472695764', ip = '101.226.33.223', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = '742153fd2b112b5b3420abeb982e45ac' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472693964
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '742153fd2b112b5b3420abeb982e45ac'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472693964
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472693964
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('cf9ef4ff058da05e3dc46552d4df93fb', '1472695765', '180.153.206.20', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472695765', ip = '180.153.206.20', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = 'cf9ef4ff058da05e3dc46552d4df93fb' LIMIT 1
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('72641e8f709158c17fe0424cc3887f14', '1472695766', '180.153.206.23', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472695766', ip = '180.153.206.23', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1472666966;}' WHERE sesskey = '72641e8f709158c17fe0424cc3887f14' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472693966
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472693966
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT bonus_type_id, COUNT(*) AS sent_count FROM `weigou`.`site_user_bonus` GROUP BY bonus_type_id
+
+SELECT bonus_type_id, COUNT(*) AS used_count FROM `weigou`.`site_user_bonus` WHERE used_time > 0 GROUP BY bonus_type_id
+
+SELECT COUNT(*) FROM `weigou`.`site_bonus_type`
+
+SELECT * FROM `weigou`.`site_bonus_type` ORDER BY type_id DESC LIMIT 15
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472695817', ip = '120.85.221.54', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472666958;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea' LIMIT 1
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('f19a9389de0d7e484a23e04357989f4a', '1472695943', '180.153.206.21', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472695943', ip = '180.153.206.21', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1472667143;}' WHERE sesskey = 'f19a9389de0d7e484a23e04357989f4a' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472666958'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472666958
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472695998', ip = '120.85.221.54', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472667198;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472694198
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472694198
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472696018', ip = '120.85.221.54', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472667198;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472694218
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT message_id, sender_id, receiver_id, sent_time, readed, deleted, title, message, user_name FROM `weigou`.`site_admin_message` AS a, `weigou`.`site_admin_user` AS b WHERE a.sender_id = b.user_id AND a.receiver_id = '1' AND a.readed = 0 AND deleted = 0 ORDER BY a.sent_time DESC
+
+SELECT pay_id, is_cod FROM `weigou`.`site_payment` WHERE enabled = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE 1  AND order_status  IN ('1','5')  AND shipping_status  IN ('1','2')  AND pay_status  IN ('2','1')  
+
+SELECT pay_id FROM `weigou`.`site_payment` WHERE is_cod = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE 1  AND   order_status  IN ('1','5','6')  AND   shipping_status  IN ('0','3','5')  AND ( pay_status  IN ('2','1')  OR pay_id  IN ('') ) 
+
+SELECT pay_id FROM `weigou`.`site_payment` WHERE is_cod = 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE 1  AND   order_status  IN ('1','5')  AND   pay_status = '0' AND ( shipping_status  IN ('1','2')  OR pay_id  IN ('1','2','3') ) 
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE 1  AND order_status = '0' 
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE  shipping_status=4
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `weigou`.`site_order_info`
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1472667220' AND promote_end_date >= '1472667220' AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1472667220' AND promote_end_date >= '1472667220' AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `weigou`.`site_stats` WHERE access_time > 1472630400
+
+SELECT count(*) FROM `weigou`.`site_sessions`
+
+SELECT COUNT(f.msg_id) FROM `weigou`.`site_feedback` AS f LEFT JOIN `weigou`.`site_feedback` AS r ON r.parent_id=f.msg_id WHERE f.parent_id=0 AND ISNULL(r.msg_id) 
+
+SELECT COUNT(*) FROM `weigou`.`site_comment` WHERE status = 0 AND parent_id = 0
+
+SELECT COUNT(*) FROM `weigou`.`site_booking_goods` WHERE is_dispose = 0
+
+SELECT COUNT(*) FROM `weigou`.`site_user_account` WHERE process_type = 1 AND is_paid = 0 
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472694220
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT bonus_type_id, COUNT(*) AS sent_count FROM `weigou`.`site_user_bonus` GROUP BY bonus_type_id
+
+SELECT bonus_type_id, COUNT(*) AS used_count FROM `weigou`.`site_user_bonus` WHERE used_time > 0 GROUP BY bonus_type_id
+
+SELECT COUNT(*) FROM `weigou`.`site_bonus_type`
+
+SELECT * FROM `weigou`.`site_bonus_type` ORDER BY type_id DESC LIMIT 15
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472694222
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT FLOOR((access_time - 1472025600) / (24 * 3600)) AS sn, access_time, COUNT(*) AS access_count FROM `weigou`.`site_stats` WHERE access_time >= '1472025600' AND access_time <= 1472716800 GROUP BY sn
+
+SELECT COUNT(*) AS access_count, area FROM `weigou`.`site_stats` WHERE access_time >= '1472025600' AND access_time < 1472716800 GROUP BY area ORDER BY access_count DESC LIMIT 20
+
+SELECT COUNT(*) AS access_count, referer_domain FROM `weigou`.`site_stats` WHERE access_time >= '1472025600' AND access_time <= 1472716800 GROUP BY referer_domain ORDER BY access_count DESC LIMIT 20
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472694222
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_template` WHERE 1  AND theme <> 'default'  AND theme <> 'bak' 
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472694224
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT * FROM `weigou`.`site_shop_config` WHERE type<>'hidden'   AND (parent_id<>'5' AND id<>'5') ORDER BY parent_id, sort_order, id
+
+SELECT region_id, region_name FROM `weigou`.`site_region` WHERE region_type = '0' AND parent_id = '0'
+
+SELECT region_id, region_name FROM `weigou`.`site_region` WHERE region_type = '1' AND parent_id = '1'
+
+SELECT region_id, region_name FROM `weigou`.`site_region` WHERE region_type = '2' AND parent_id = '2'
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472696065', ip = '120.85.221.54', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472667198;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472694265
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT c.*, COUNT(s.cat_id) AS has_children, COUNT(a.article_id) AS aricle_num  FROM `weigou`.`site_article_cat` AS c LEFT JOIN `weigou`.`site_article_cat` AS s ON s.parent_id=c.cat_id LEFT JOIN `weigou`.`site_article` AS a ON a.cat_id=c.cat_id GROUP BY c.cat_id  ORDER BY parent_id, sort_order ASC
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472694270
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('43829bf39b2c09602d39ea5e1f16867e', '1472696186', '180.153.206.23', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472696186', ip = '180.153.206.23', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1472667386;}' WHERE sesskey = '43829bf39b2c09602d39ea5e1f16867e' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472694386
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('8f8dd2268fae4c2e299fb0a4d17f6a4b', '1472696203', '180.153.206.16', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472696203', ip = '180.153.206.16', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = '8f8dd2268fae4c2e299fb0a4d17f6a4b' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472694403
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('d8db0825d55b3536bb67c9b4f624366d', '1472696206', '101.226.125.111', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472696206', ip = '101.226.125.111', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = 'd8db0825d55b3536bb67c9b4f624366d' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472694406
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472694406
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('767e2a0b032666e6abd3f208b5d6a537', '1472696207', '101.226.33.216', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472696207', ip = '101.226.33.216', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = '767e2a0b032666e6abd3f208b5d6a537' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472694407
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '767e2a0b032666e6abd3f208b5d6a537'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('1dd0f3d1ec97024a8cc1751929cbb3cd', '1472696211', '101.226.33.205', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472696211', ip = '101.226.33.205', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = '1dd0f3d1ec97024a8cc1751929cbb3cd' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1dd0f3d1ec97024a8cc1751929cbb3cd'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472694412
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('2edcc606556b0039600a86c9d93edba3', '1472696245', '101.226.65.102', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472696245', ip = '101.226.65.102', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = '2edcc606556b0039600a86c9d93edba3' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472694445
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '2edcc606556b0039600a86c9d93edba3'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT FLOOR((access_time - 1472025600) / (24 * 3600)) AS sn, access_time, COUNT(*) AS access_count FROM `weigou`.`site_stats` WHERE access_time >= '1472025600' AND access_time <= 1472716800 GROUP BY sn
+
+SELECT COUNT(*) AS access_count, area FROM `weigou`.`site_stats` WHERE access_time >= '1472025600' AND access_time < 1472716800 GROUP BY area ORDER BY access_count DESC LIMIT 20
+
+SELECT COUNT(*) AS access_count, referer_domain FROM `weigou`.`site_stats` WHERE access_time >= '1472025600' AND access_time <= 1472716800 GROUP BY referer_domain ORDER BY access_count DESC LIMIT 20
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472696245', ip = '120.85.221.54', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472667198;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_template` WHERE 1  AND theme <> 'default'  AND theme <> 'bak' 
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472694446
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472694446
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472667198'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472667198
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472696246', ip = '120.85.221.54', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472667446;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SHOW TABLES LIKE 'site\_%'
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT * FROM `weigou`.`site_drp_config`
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT * FROM `weigou`.`site_shop_config` WHERE type<>'hidden'   AND (parent_id<>'5' AND id<>'5') ORDER BY parent_id, sort_order, id
+
+SELECT region_id, region_name FROM `weigou`.`site_region` WHERE region_type = '0' AND parent_id = '0'
+
+SELECT region_id, region_name FROM `weigou`.`site_region` WHERE region_type = '1' AND parent_id = '1'
+
+SELECT region_id, region_name FROM `weigou`.`site_region` WHERE region_type = '2' AND parent_id = '2'
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('03e73b0e9b9d90ca642fe05a39d5dbac', '1472696256', '101.226.66.172', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472696256', ip = '101.226.66.172', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = '03e73b0e9b9d90ca642fe05a39d5dbac' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472694456
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '03e73b0e9b9d90ca642fe05a39d5dbac'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472694456
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472694456
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('b2c6f50d4548e3782049c5f6e603f876', '1472696427', '117.185.27.114', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472696427', ip = '117.185.27.114', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = 'b2c6f50d4548e3782049c5f6e603f876' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'b2c6f50d4548e3782049c5f6e603f876'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472667446'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472667446
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472696432', ip = '120.85.221.54', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472667632;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472694632
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('4d3c3905be62bebb0319b4a9a20657fa', '1472696434', '101.226.89.123', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472696434', ip = '101.226.89.123', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1472667634;}' WHERE sesskey = '4d3c3905be62bebb0319b4a9a20657fa' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472694634
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '0bd6b114860e824580440e71a46e94da'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'a68316aadfb5975ea9fd1531f993ef75'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472694640
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '0bd6b114860e824580440e71a46e94da'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472694640
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'a68316aadfb5975ea9fd1531f993ef75'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472694640
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472667632'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472667632
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472696612', ip = '120.85.221.54', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472667812;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472694812
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('034ac5f95b5a73b177accb338c1e87aa', '1472696612', '117.185.27.114', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472696612', ip = '117.185.27.114', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1472667812;}' WHERE sesskey = '034ac5f95b5a73b177accb338c1e87aa' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472694812
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472667812'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472667812
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472696792', ip = '120.85.221.54', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472667992;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472694992
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('0b5567c56909d14f75e12a262c7ff96c', '1472696792', '61.151.217.45', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472696792', ip = '61.151.217.45', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1472667992;}' WHERE sesskey = '0b5567c56909d14f75e12a262c7ff96c' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472694992
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472667992'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472667992
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472696972', ip = '120.85.221.54', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472668172;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472695172
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472695172
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('f115c7114a6d7f6615c7085076a19aaf', '1472696972', '101.226.79.182', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472696972', ip = '101.226.79.182', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1472668172;}' WHERE sesskey = 'f115c7114a6d7f6615c7085076a19aaf' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472695172
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472695172
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472668172'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472668172
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472697152', ip = '120.85.221.54', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472668352;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472695352
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('2b086eda157ddd6cf4979003e9ee675c', '1472697158', '101.226.66.173', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472697158', ip = '101.226.66.173', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1472668358;}' WHERE sesskey = '2b086eda157ddd6cf4979003e9ee675c' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472695358
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472668352'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472668352
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472697332', ip = '120.85.221.54', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472668532;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472695532
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('7aa89a579bf00ec689652910d6131365', '1472697338', '101.226.125.103', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472697338', ip = '101.226.125.103', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1472668538;}' WHERE sesskey = '7aa89a579bf00ec689652910d6131365' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472695538
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472668532'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472668532
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472697513', ip = '120.85.221.54', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472668713;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472668713'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472668713
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472697692', ip = '120.85.221.54', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472668892;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472695892
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('cda7ce0b139bc7a7aea03e24c8c56cdc', '1472697695', '117.185.27.115', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472697695', ip = '117.185.27.115', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1472668895;}' WHERE sesskey = 'cda7ce0b139bc7a7aea03e24c8c56cdc' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472695895
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472668892'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472668892
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472697872', ip = '120.85.221.54', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472669072;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472696072
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('1ae7254f4cd5eea5164a8bc4522f5964', '1472697879', '101.226.89.119', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472697879', ip = '101.226.89.119', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1472669079;}' WHERE sesskey = '1ae7254f4cd5eea5164a8bc4522f5964' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472669072'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472669072
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472698052', ip = '120.85.221.54', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472669252;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472696252
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472696252
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472669252'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472669252
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472698232', ip = '120.85.221.54', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472669432;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472696432
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('2c9d95a27d5635fa0e5ac2d9e80bef7a', '1472698232', '140.207.185.111', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472698232', ip = '140.207.185.111', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1472669432;}' WHERE sesskey = '2c9d95a27d5635fa0e5ac2d9e80bef7a' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472696432
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472669432'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472669432
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472698412', ip = '120.85.221.54', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472669612;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472696612
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('3f2e75a4d95c2bbae6543a1183ca177b', '1472698412', '101.226.65.106', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472698412', ip = '101.226.65.106', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1472669612;}' WHERE sesskey = '3f2e75a4d95c2bbae6543a1183ca177b' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472696612
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472669612'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472669612
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472698592', ip = '120.85.221.54', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472669792;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472696792
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472696792
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('f1ba3469b7998450bafb1020d9b2c14e', '1472698599', '61.151.218.118', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472698599', ip = '61.151.218.118', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1472669799;}' WHERE sesskey = 'f1ba3469b7998450bafb1020d9b2c14e' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472669792'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472669792
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472698772', ip = '120.85.221.54', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472669972;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472696972
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472696972
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('cc53be6f4d47ffeb8e70ab02bfa0d3b2', '1472698773', '180.153.205.253', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472698773', ip = '180.153.205.253', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1472669973;}' WHERE sesskey = 'cc53be6f4d47ffeb8e70ab02bfa0d3b2' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT * FROM `weigou`.`site_payment` WHERE enabled = '1' ORDER BY pay_order
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472698871', ip = '120.85.221.54', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472669972;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472697071
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('f5a505dcc5d0f91930f8cbc7d6bc17c9', '1472698962', '101.226.33.238', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472698962', ip = '101.226.33.238', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1472670162;}' WHERE sesskey = 'f5a505dcc5d0f91930f8cbc7d6bc17c9' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472697162
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472669972'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472669972
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472699056', ip = '120.85.221.54', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472670256;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'd304c032b09a3d8ed9d3d633f3e7b6ea' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472697256
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('d8ddba7aca2378e910f24d8985c2afbf', '1472699236', '180.153.206.19', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472699236', ip = '180.153.206.19', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1472670436;}' WHERE sesskey = 'd8ddba7aca2378e910f24d8985c2afbf' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472697436
+

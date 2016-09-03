@@ -1,0 +1,1171 @@
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1b0b5f81396813fcab5c0d63c440441d'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472284780'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472284780
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472313760', ip = '140.246.4.170', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472284960;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = '1b0b5f81396813fcab5c0d63c440441d' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472311960
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1b0b5f81396813fcab5c0d63c440441d'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472284960'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472284960
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472313940', ip = '140.246.4.170', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472285140;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = '1b0b5f81396813fcab5c0d63c440441d' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472312140
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472312140
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1b0b5f81396813fcab5c0d63c440441d'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472285140'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472285140
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472314121', ip = '140.246.4.170', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472285321;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = '1b0b5f81396813fcab5c0d63c440441d' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1b0b5f81396813fcab5c0d63c440441d'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472285321'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472285321
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472314301', ip = '140.246.4.170', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472285501;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = '1b0b5f81396813fcab5c0d63c440441d' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1b0b5f81396813fcab5c0d63c440441d'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472285501'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472285501
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472314480', ip = '140.246.4.170', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472285680;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = '1b0b5f81396813fcab5c0d63c440441d' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472312680
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1b0b5f81396813fcab5c0d63c440441d'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472285680'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472285680
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472314660', ip = '140.246.4.170', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472285860;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = '1b0b5f81396813fcab5c0d63c440441d' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472312860
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1b0b5f81396813fcab5c0d63c440441d'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472285860'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472285860
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472314840', ip = '140.246.4.170', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472286040;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = '1b0b5f81396813fcab5c0d63c440441d' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472313040
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1b0b5f81396813fcab5c0d63c440441d'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472286040'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472286040
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472315020', ip = '140.246.4.170', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472286220;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = '1b0b5f81396813fcab5c0d63c440441d' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472313220
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('2876d33cd5ee7f42e27b73c62b2ebf68', '1472338375', '104.200.154.60', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472338375', ip = '104.200.154.60', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = '2876d33cd5ee7f42e27b73c62b2ebf68' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '2876d33cd5ee7f42e27b73c62b2ebf68'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472336575
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('1c0d8409a0fe18b855673373e1ec549f', '1472354545', '120.85.219.50', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472354545', ip = '120.85.219.50', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472352745
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT `ec_salt` FROM `weigou`.`site_admin_user`WHERE user_name = 'admin'
+
+SELECT user_id, user_name, password, last_login, action_list, last_login,suppliers_id,ec_salt FROM `weigou`.`site_admin_user` WHERE user_name = 'admin' AND password = '422b6fabf60576964c5352f35a1f02d7'
+
+UPDATE `weigou`.`site_admin_user` SET last_login='1472325750', last_ip='120.85.219.50' WHERE user_id='1'
+
+SELECT DISTINCT session_id FROM `weigou`.`site_cart` AS c, `weigou`.`site_sessions` AS s WHERE c.session_id = s.sesskey 
+
+DELETE FROM `weigou`.`site_cart` WHERE session_id NOT  IN ('') 
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472354550', ip = '120.85.219.50', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";s:10:\"1472281262\";s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472352750
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472352750
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472352750
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472352750
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT message_id, sender_id, receiver_id, sent_time, readed, deleted, title, message, user_name FROM `weigou`.`site_admin_message` AS a, `weigou`.`site_admin_user` AS b WHERE a.sender_id = b.user_id AND a.receiver_id = '1' AND a.readed = 0 AND deleted = 0 ORDER BY a.sent_time DESC
+
+SELECT pay_id, is_cod FROM `weigou`.`site_payment` WHERE enabled = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE 1  AND order_status  IN ('1','5')  AND shipping_status  IN ('1','2')  AND pay_status  IN ('2','1')  
+
+SELECT pay_id FROM `weigou`.`site_payment` WHERE is_cod = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE 1  AND   order_status  IN ('1','5','6')  AND   shipping_status  IN ('0','3','5')  AND ( pay_status  IN ('2','1')  OR pay_id  IN ('') ) 
+
+SELECT pay_id FROM `weigou`.`site_payment` WHERE is_cod = 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE 1  AND   order_status  IN ('1','5')  AND   pay_status = '0' AND ( shipping_status  IN ('1','2')  OR pay_id  IN ('1','2','3') ) 
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE 1  AND order_status = '0' 
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE  shipping_status=4
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `weigou`.`site_order_info`
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1472325751' AND promote_end_date >= '1472325751' AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1472325751' AND promote_end_date >= '1472325751' AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `weigou`.`site_stats` WHERE access_time > 1472284800
+
+SELECT count(*) FROM `weigou`.`site_sessions`
+
+SELECT COUNT(f.msg_id) FROM `weigou`.`site_feedback` AS f LEFT JOIN `weigou`.`site_feedback` AS r ON r.parent_id=f.msg_id WHERE f.parent_id=0 AND ISNULL(r.msg_id) 
+
+SELECT COUNT(*) FROM `weigou`.`site_comment` WHERE status = 0 AND parent_id = 0
+
+SELECT COUNT(*) FROM `weigou`.`site_booking_goods` WHERE is_dispose = 0
+
+SELECT COUNT(*) FROM `weigou`.`site_user_account` WHERE process_type = 1 AND is_paid = 0 
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `weigou`.`site_order_info`
+
+SELECT COUNT(*) FROM `weigou`.`site_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `weigou`.`site_users`
+
+SELECT value FROM `weigou`.`site_shop_config` WHERE code = 'template'
+
+SELECT value FROM `weigou`.`site_shop_config` WHERE code = 'stylename'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472352752
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472352753
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472281262'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472281262
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472354553', ip = '120.85.219.50', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472325753;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT * FROM `weigou`.`site_drp_config`
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472352758
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_drp_shop` where `audit` = "1" 
+
+SELECT * FROM `weigou`.`site_drp_shop` where `audit` = "1"  ORDER BY id DESC LIMIT 15
+
+select user_name from `weigou`.`site_users` where user_id = 6
+
+select user_name from `weigou`.`site_users` where user_id = 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472352760
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT d.id,d.shop_name,d.real_name,d.shop_mobile,d.shop_qq,d.user_id,d.cat_id,d.open,d.audit,u.user_name FROM `weigou`.`site_drp_shop` as d join `weigou`.`site_users` as u on d.user_id=u.user_id where d.id = 3
+
+select cat_id,cat_name from `weigou`.`site_category` where parent_id = 0 and is_show = 1 ORDER BY sort_order ASC, cat_id ASC
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472354568', ip = '120.85.219.50', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472325753;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472352768
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472352768
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT rank_id, rank_name, min_points FROM `weigou`.`site_user_rank` ORDER BY min_points ASC 
+
+SELECT COUNT(*) FROM `weigou`.`site_users` WHERE 1 
+
+SELECT user_id, user_name,sex,birthday,mobile_phone,email, is_validated, user_money, frozen_money, rank_points, pay_points, reg_time  FROM `weigou`.`site_users` WHERE 1  ORDER by user_id DESC LIMIT 0,15
+
+DESC `weigou`.`site_sessions_data`
+
+INSERT INTO `weigou`.`site_sessions_data` (sesskey, expiry, data) VALUES ('1c0d8409a0fe18b855673373e1ec549f', '1472354650', 'a:6:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472325753;s:12:\"suppliers_id\";s:1:\"0\";s:9:\"wechat_id\";i:1;s:9:\"user_list\";a:6:{i:0;a:12:{s:7:\"user_id\";s:1:\"7\";s:9:\"user_name\";s:15:\"wx_147235451242\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147235451242@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-28\";}i:1;a:12:{s:7:\"user_id\";s:1:\"6\";s:9:\"user_name\";s:4:\"list\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:11:\"list@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-27\";}i:2;a:12:{s:7:\"user_id\";s:1:\"5\";s:9:\"user_name\";s:15:\"wx_147220851564\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147220851564@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-26\";}i:3;a:12:{s:7:\"user_id\";s:1:\"4\";s:9:\"user_name\";s:15:\"wx_147212058316\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147212058316@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:4;a:12:{s:7:\"user_id\";s:1:\"3\";s:9:\"user_name\";s:4:\"test\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:20:\"0981472061609@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:5;a:12:{s:7:\"user_id\";s:1:\"1\";s:9:\"user_name\";s:15:\"wx_147202641123\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147202641123@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"4\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-24\";}}}')ON DUPLICATE KEY UPDATE expiry = expiry + 1472354650, data = 'a:6:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472325753;s:12:\"suppliers_id\";s:1:\"0\";s:9:\"wechat_id\";i:1;s:9:\"user_list\";a:6:{i:0;a:12:{s:7:\"user_id\";s:1:\"7\";s:9:\"user_name\";s:15:\"wx_147235451242\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147235451242@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-28\";}i:1;a:12:{s:7:\"user_id\";s:1:\"6\";s:9:\"user_name\";s:4:\"list\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:11:\"list@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-27\";}i:2;a:12:{s:7:\"user_id\";s:1:\"5\";s:9:\"user_name\";s:15:\"wx_147220851564\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147220851564@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-26\";}i:3;a:12:{s:7:\"user_id\";s:1:\"4\";s:9:\"user_name\";s:15:\"wx_147212058316\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147212058316@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:4;a:12:{s:7:\"user_id\";s:1:\"3\";s:9:\"user_name\";s:4:\"test\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:20:\"0981472061609@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:5;a:12:{s:7:\"user_id\";s:1:\"1\";s:9:\"user_name\";s:15:\"wx_147202641123\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147202641123@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"4\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-24\";}}}'
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472354650', ip = '120.85.219.50', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = '' WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472352850
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472352850
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT u.user_name, u.sex, u.birthday, u.pay_points, u.rank_points, u.user_rank , u.user_money, u.frozen_money, u.credit_line, u.parent_id, u2.user_name as parent_username, u.qq, u.msn, u.office_phone, u.home_phone, u.mobile_phone FROM `weigou`.`site_users` u LEFT JOIN `weigou`.`site_users` u2 ON u.parent_id = u2.user_id WHERE u.user_id='7'
+
+SELECT u.user_id, u.sex, u.birthday, u.pay_points, u.rank_points, u.user_rank , u.user_money, u.frozen_money, u.credit_line, u.parent_id, u2.user_name as parent_username, u.qq, u.msn,
+    u.office_phone, u.home_phone, u.mobile_phone FROM `weigou`.`site_users` u LEFT JOIN `weigou`.`site_users` u2 ON u.parent_id = u2.user_id WHERE u.user_id='7'
+
+SELECT * FROM `weigou`.`site_reg_fields` WHERE type < 2 AND display = 1 AND id != 6 ORDER BY dis_order, id
+
+SELECT reg_field_id, content FROM `weigou`.`site_reg_extend_info` WHERE user_id = 7
+
+SELECT user_id FROM `weigou`.`site_users` WHERE parent_id IN('7')
+
+SELECT rank_id, rank_name, min_points FROM `weigou`.`site_user_rank` WHERE special_rank = 1 ORDER BY min_points
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT rank_id, rank_name, min_points FROM `weigou`.`site_user_rank` ORDER BY min_points ASC 
+
+SELECT COUNT(*) FROM `weigou`.`site_users` WHERE 1 
+
+SELECT user_id, user_name,sex,birthday,mobile_phone,email, is_validated, user_money, frozen_money, rank_points, pay_points, reg_time  FROM `weigou`.`site_users` WHERE 1  ORDER by user_id DESC LIMIT 0,15
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('a1c072124ad2275783dcd92ac7a5f8ca', '1472354732', '180.153.160.28', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472354732', ip = '180.153.160.28', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = 'a1c072124ad2275783dcd92ac7a5f8ca' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472352932
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('ff5ed9587b95c949acdedf84abaa2043', '1472354733', '117.185.27.115', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472354733', ip = '117.185.27.115', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1472325933;}' WHERE sesskey = 'ff5ed9587b95c949acdedf84abaa2043' LIMIT 1
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('969c07244b29cc1ec56c19c898321945', '1472354736', '180.153.212.13', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472354736', ip = '180.153.212.13', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = '969c07244b29cc1ec56c19c898321945' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472352936
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472352936
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '969c07244b29cc1ec56c19c898321945'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472352937
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('6c8ea01f7e2b51eb3d683494322101a3', '1472354738', '101.226.125.105', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472354738', ip = '101.226.125.105', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = '6c8ea01f7e2b51eb3d683494322101a3' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472352938
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '6c8ea01f7e2b51eb3d683494322101a3'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('3116d01822833a738ac13e9fa9857e7a', '1472354738', '101.226.33.200', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472354738', ip = '101.226.33.200', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = '3116d01822833a738ac13e9fa9857e7a' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472352938
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472352938
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472352938
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('cbc694d26e5c8daee844d6ed9b41766a', '1472354739', '101.226.89.121', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472354739', ip = '101.226.89.121', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = 'cbc694d26e5c8daee844d6ed9b41766a' LIMIT 1
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('2828e1e00bf98059cf14e68611722637', '1472354740', '180.153.214.178', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472354740', ip = '180.153.214.178', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = '2828e1e00bf98059cf14e68611722637' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472352940
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '2828e1e00bf98059cf14e68611722637'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472352940
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('47dc28d5a8304626915b11cec4e5d871', '1472354740', '180.163.2.119', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472354740', ip = '180.163.2.119', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = '47dc28d5a8304626915b11cec4e5d871' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472352940
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('162be7515854b5c0f215deccbffda0ae', '1472354748', '101.226.33.227', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472354748', ip = '101.226.33.227', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = '162be7515854b5c0f215deccbffda0ae' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472352948
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '162be7515854b5c0f215deccbffda0ae'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472352948
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '47dc28d5a8304626915b11cec4e5d871'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472354750', ip = '180.163.2.119', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = '47dc28d5a8304626915b11cec4e5d871' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472352950
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('b49c5e171112ac2ff298f2ccb55c2f2b', '1472354756', '180.153.81.203', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472354756', ip = '180.153.81.203', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = 'b49c5e171112ac2ff298f2ccb55c2f2b' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472352956
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'b49c5e171112ac2ff298f2ccb55c2f2b'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472352956
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472352956
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'e0ad0618daff126ce1eb8cf10e2637d2'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'e0ad0618daff126ce1eb8cf10e2637d2'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '72142a2126e765b058b378024f533bf0'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472352962
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472352962
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '72142a2126e765b058b378024f533bf0'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472352962
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472352962
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('66246c25f834b21409975857677bbd8e', '1472354830', '101.226.65.102', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472354830', ip = '101.226.65.102', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = '66246c25f834b21409975857677bbd8e' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472353030
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '66246c25f834b21409975857677bbd8e'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472353030
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472353030
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('12bfa431278944239416dfd13756b97e', '1472354835', '101.226.89.115', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472354835', ip = '101.226.89.115', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = '12bfa431278944239416dfd13756b97e' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472353035
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '12bfa431278944239416dfd13756b97e'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472325753'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472325753
+
+DESC `weigou`.`site_sessions_data`
+
+INSERT INTO `weigou`.`site_sessions_data` (sesskey, expiry, data) VALUES ('1c0d8409a0fe18b855673373e1ec549f', '1472354840', 'a:6:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472326040;s:12:\"suppliers_id\";s:1:\"0\";s:9:\"wechat_id\";i:1;s:9:\"user_list\";a:6:{i:0;a:12:{s:7:\"user_id\";s:1:\"7\";s:9:\"user_name\";s:15:\"wx_147235451242\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147235451242@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-28\";}i:1;a:12:{s:7:\"user_id\";s:1:\"6\";s:9:\"user_name\";s:4:\"list\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:11:\"list@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-27\";}i:2;a:12:{s:7:\"user_id\";s:1:\"5\";s:9:\"user_name\";s:15:\"wx_147220851564\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147220851564@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-26\";}i:3;a:12:{s:7:\"user_id\";s:1:\"4\";s:9:\"user_name\";s:15:\"wx_147212058316\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147212058316@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:4;a:12:{s:7:\"user_id\";s:1:\"3\";s:9:\"user_name\";s:4:\"test\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:20:\"0981472061609@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:5;a:12:{s:7:\"user_id\";s:1:\"1\";s:9:\"user_name\";s:15:\"wx_147202641123\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147202641123@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"4\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-24\";}}}')ON DUPLICATE KEY UPDATE expiry = expiry + 1472354840, data = 'a:6:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472326040;s:12:\"suppliers_id\";s:1:\"0\";s:9:\"wechat_id\";i:1;s:9:\"user_list\";a:6:{i:0;a:12:{s:7:\"user_id\";s:1:\"7\";s:9:\"user_name\";s:15:\"wx_147235451242\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147235451242@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-28\";}i:1;a:12:{s:7:\"user_id\";s:1:\"6\";s:9:\"user_name\";s:4:\"list\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:11:\"list@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-27\";}i:2;a:12:{s:7:\"user_id\";s:1:\"5\";s:9:\"user_name\";s:15:\"wx_147220851564\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147220851564@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-26\";}i:3;a:12:{s:7:\"user_id\";s:1:\"4\";s:9:\"user_name\";s:15:\"wx_147212058316\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147212058316@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:4;a:12:{s:7:\"user_id\";s:1:\"3\";s:9:\"user_name\";s:4:\"test\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:20:\"0981472061609@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:5;a:12:{s:7:\"user_id\";s:1:\"1\";s:9:\"user_name\";s:15:\"wx_147202641123\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147202641123@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"4\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-24\";}}}'
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472354840', ip = '120.85.219.50', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = '' WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472353040
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT * FROM `weigou`.`site_drp_config`
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472353142
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472353142
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT bonus_type_id, COUNT(*) AS sent_count FROM `weigou`.`site_user_bonus` GROUP BY bonus_type_id
+
+SELECT bonus_type_id, COUNT(*) AS used_count FROM `weigou`.`site_user_bonus` WHERE used_time > 0 GROUP BY bonus_type_id
+
+SELECT COUNT(*) FROM `weigou`.`site_bonus_type`
+
+SELECT * FROM `weigou`.`site_bonus_type` ORDER BY type_id DESC LIMIT 15
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472353144
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472353144
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('94cb13a55c8fb0b3b7ae1dd25c90e2ea', '1472355029', '101.226.89.121', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472355029', ip = '101.226.89.121', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1472326229;}' WHERE sesskey = '94cb13a55c8fb0b3b7ae1dd25c90e2ea' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT * FROM `weigou`.`site_drp_config`
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472353264
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT * FROM `weigou`.`site_drp_config`
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = '温馨提示1' WHERE keyword = 'apply'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = '新手必读1' WHERE keyword = 'novice'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = '1' WHERE keyword = 'fxts'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = '10' WHERE keyword = 'txxz'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = 'close' WHERE keyword = 'msg_open'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = 'close' WHERE keyword = 'examine'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = '0' WHERE keyword = 'money'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = 'close' WHERE keyword = 'audit'
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472353278
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT * FROM `weigou`.`site_drp_config`
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472353278
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = '温馨提示1' WHERE keyword = 'apply'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = '新手必读1' WHERE keyword = 'novice'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = '1' WHERE keyword = 'fxts'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = '10' WHERE keyword = 'txxz'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = 'close' WHERE keyword = 'msg_open'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = 'close' WHERE keyword = 'examine'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = '0' WHERE keyword = 'money'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = 'close' WHERE keyword = 'audit'
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472353280
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT * FROM `weigou`.`site_drp_config`
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472353282
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472353282
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('21a0d8368a430f4c0c4f39f103414649', '1472355128', '101.226.33.240', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472355128', ip = '101.226.33.240', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = '21a0d8368a430f4c0c4f39f103414649' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472353328
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '21a0d8368a430f4c0c4f39f103414649'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472353328
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'eb90c9db73eac3e2a40fd2b02b8d7dda'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'eb90c9db73eac3e2a40fd2b02b8d7dda'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472353330
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '31e949d7c5d11284cda6683aca2dec28'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472353330
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '31e949d7c5d11284cda6683aca2dec28'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472353330
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('1eec73b00a00f1a5ca76e168f7fcdb5b', '1472355133', '180.153.214.178', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472355133', ip = '180.153.214.178', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = '1eec73b00a00f1a5ca76e168f7fcdb5b' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1eec73b00a00f1a5ca76e168f7fcdb5b'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'c1dc86728baf8375175086365592959f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472353333
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = 'c1dc86728baf8375175086365592959f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472353334
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '6a5da49cd1ff08f7e1a6b4fb1ae3c3c0'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472353344
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '6a5da49cd1ff08f7e1a6b4fb1ae3c3c0'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '8ad488fbbcd6015b7970a1f4ad06209c'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472353346
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '8ad488fbbcd6015b7970a1f4ad06209c'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '691312b1a8d804130fca73fb583d6b3c'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '691312b1a8d804130fca73fb583d6b3c'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472353350
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '37d8e7843ee5e6eb47e98ff3baeb06e4'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472353355
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '37d8e7843ee5e6eb47e98ff3baeb06e4'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472353356
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('0bdd996df4ec0479c6652e465521ec5a', '1472355262', '101.226.66.174', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472355262', ip = '101.226.66.174', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = '0bdd996df4ec0479c6652e465521ec5a' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472353462
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472353462
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '0bdd996df4ec0479c6652e465521ec5a'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472353462
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = '温馨提示1' WHERE keyword = 'apply'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = '新手必读1' WHERE keyword = 'novice'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = '1' WHERE keyword = 'fxts'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = '10' WHERE keyword = 'txxz'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = 'close' WHERE keyword = 'msg_open'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = 'open' WHERE keyword = 'examine'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = '0' WHERE keyword = 'money'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = 'close' WHERE keyword = 'audit'
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472353778
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472353778
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT * FROM `weigou`.`site_drp_config`
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = '温馨提示1' WHERE keyword = 'apply'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = '新手必读1' WHERE keyword = 'novice'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = '1' WHERE keyword = 'fxts'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = '10' WHERE keyword = 'txxz'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = 'close' WHERE keyword = 'msg_open'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = 'open' WHERE keyword = 'examine'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = '1' WHERE keyword = 'money'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = 'close' WHERE keyword = 'audit'
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT * FROM `weigou`.`site_drp_config`
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472353796
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472353810
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = '温馨提示1' WHERE keyword = 'apply'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = '新手必读1' WHERE keyword = 'novice'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = '1' WHERE keyword = 'fxts'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = '10' WHERE keyword = 'txxz'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = 'open' WHERE keyword = 'msg_open'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = 'open' WHERE keyword = 'examine'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = '1' WHERE keyword = 'money'
+
+DESC `weigou`.`site_drp_config`
+
+UPDATE `weigou`.`site_drp_config` SET value = 'close' WHERE keyword = 'audit'
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472353818
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472353818
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT * FROM `weigou`.`site_drp_config`
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472353818
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_drp_shop` where `audit` = "0" 
+
+SELECT * FROM `weigou`.`site_drp_shop` where `audit` = "0"  ORDER BY id DESC LIMIT 15
+
+select user_name from `weigou`.`site_users` where user_id = 3
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472326040'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472326040
+
+DESC `weigou`.`site_sessions_data`
+
+INSERT INTO `weigou`.`site_sessions_data` (sesskey, expiry, data) VALUES ('1c0d8409a0fe18b855673373e1ec549f', '1472355794', 'a:6:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472326994;s:12:\"suppliers_id\";s:1:\"0\";s:9:\"wechat_id\";i:1;s:9:\"user_list\";a:6:{i:0;a:12:{s:7:\"user_id\";s:1:\"7\";s:9:\"user_name\";s:15:\"wx_147235451242\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147235451242@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-28\";}i:1;a:12:{s:7:\"user_id\";s:1:\"6\";s:9:\"user_name\";s:4:\"list\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:11:\"list@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-27\";}i:2;a:12:{s:7:\"user_id\";s:1:\"5\";s:9:\"user_name\";s:15:\"wx_147220851564\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147220851564@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-26\";}i:3;a:12:{s:7:\"user_id\";s:1:\"4\";s:9:\"user_name\";s:15:\"wx_147212058316\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147212058316@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:4;a:12:{s:7:\"user_id\";s:1:\"3\";s:9:\"user_name\";s:4:\"test\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:20:\"0981472061609@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:5;a:12:{s:7:\"user_id\";s:1:\"1\";s:9:\"user_name\";s:15:\"wx_147202641123\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147202641123@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"4\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-24\";}}}')ON DUPLICATE KEY UPDATE expiry = expiry + 1472355794, data = 'a:6:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472326994;s:12:\"suppliers_id\";s:1:\"0\";s:9:\"wechat_id\";i:1;s:9:\"user_list\";a:6:{i:0;a:12:{s:7:\"user_id\";s:1:\"7\";s:9:\"user_name\";s:15:\"wx_147235451242\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147235451242@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-28\";}i:1;a:12:{s:7:\"user_id\";s:1:\"6\";s:9:\"user_name\";s:4:\"list\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:11:\"list@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-27\";}i:2;a:12:{s:7:\"user_id\";s:1:\"5\";s:9:\"user_name\";s:15:\"wx_147220851564\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147220851564@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-26\";}i:3;a:12:{s:7:\"user_id\";s:1:\"4\";s:9:\"user_name\";s:15:\"wx_147212058316\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147212058316@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:4;a:12:{s:7:\"user_id\";s:1:\"3\";s:9:\"user_name\";s:4:\"test\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:20:\"0981472061609@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:5;a:12:{s:7:\"user_id\";s:1:\"1\";s:9:\"user_name\";s:15:\"wx_147202641123\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147202641123@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"4\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-24\";}}}'
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472355794', ip = '120.85.219.50', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = '' WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472353994
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472326994'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472326994
+
+DESC `weigou`.`site_sessions_data`
+
+INSERT INTO `weigou`.`site_sessions_data` (sesskey, expiry, data) VALUES ('1c0d8409a0fe18b855673373e1ec549f', '1472355974', 'a:6:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472327174;s:12:\"suppliers_id\";s:1:\"0\";s:9:\"wechat_id\";i:1;s:9:\"user_list\";a:6:{i:0;a:12:{s:7:\"user_id\";s:1:\"7\";s:9:\"user_name\";s:15:\"wx_147235451242\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147235451242@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-28\";}i:1;a:12:{s:7:\"user_id\";s:1:\"6\";s:9:\"user_name\";s:4:\"list\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:11:\"list@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-27\";}i:2;a:12:{s:7:\"user_id\";s:1:\"5\";s:9:\"user_name\";s:15:\"wx_147220851564\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147220851564@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-26\";}i:3;a:12:{s:7:\"user_id\";s:1:\"4\";s:9:\"user_name\";s:15:\"wx_147212058316\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147212058316@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:4;a:12:{s:7:\"user_id\";s:1:\"3\";s:9:\"user_name\";s:4:\"test\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:20:\"0981472061609@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:5;a:12:{s:7:\"user_id\";s:1:\"1\";s:9:\"user_name\";s:15:\"wx_147202641123\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147202641123@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"4\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-24\";}}}')ON DUPLICATE KEY UPDATE expiry = expiry + 1472355974, data = 'a:6:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472327174;s:12:\"suppliers_id\";s:1:\"0\";s:9:\"wechat_id\";i:1;s:9:\"user_list\";a:6:{i:0;a:12:{s:7:\"user_id\";s:1:\"7\";s:9:\"user_name\";s:15:\"wx_147235451242\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147235451242@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-28\";}i:1;a:12:{s:7:\"user_id\";s:1:\"6\";s:9:\"user_name\";s:4:\"list\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:11:\"list@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-27\";}i:2;a:12:{s:7:\"user_id\";s:1:\"5\";s:9:\"user_name\";s:15:\"wx_147220851564\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147220851564@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-26\";}i:3;a:12:{s:7:\"user_id\";s:1:\"4\";s:9:\"user_name\";s:15:\"wx_147212058316\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147212058316@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:4;a:12:{s:7:\"user_id\";s:1:\"3\";s:9:\"user_name\";s:4:\"test\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:20:\"0981472061609@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:5;a:12:{s:7:\"user_id\";s:1:\"1\";s:9:\"user_name\";s:15:\"wx_147202641123\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147202641123@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"4\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-24\";}}}'
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472355974', ip = '120.85.219.50', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = '' WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472354174
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('19663622dffbd08a6769609d8a3fd372', '1472355980', '101.226.33.217', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('67c9f535449368c7c5b06cf44549d1b7', '1472355980', '180.163.2.117', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472355980', ip = '180.163.2.117', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = '67c9f535449368c7c5b06cf44549d1b7' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472354180
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472355980', ip = '101.226.33.217', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1472327180;}' WHERE sesskey = '19663622dffbd08a6769609d8a3fd372' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472354180
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '67c9f535449368c7c5b06cf44549d1b7'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472354180
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472327174'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472327174
+
+DESC `weigou`.`site_sessions_data`
+
+INSERT INTO `weigou`.`site_sessions_data` (sesskey, expiry, data) VALUES ('1c0d8409a0fe18b855673373e1ec549f', '1472356154', 'a:6:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472327354;s:12:\"suppliers_id\";s:1:\"0\";s:9:\"wechat_id\";i:1;s:9:\"user_list\";a:6:{i:0;a:12:{s:7:\"user_id\";s:1:\"7\";s:9:\"user_name\";s:15:\"wx_147235451242\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147235451242@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-28\";}i:1;a:12:{s:7:\"user_id\";s:1:\"6\";s:9:\"user_name\";s:4:\"list\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:11:\"list@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-27\";}i:2;a:12:{s:7:\"user_id\";s:1:\"5\";s:9:\"user_name\";s:15:\"wx_147220851564\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147220851564@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-26\";}i:3;a:12:{s:7:\"user_id\";s:1:\"4\";s:9:\"user_name\";s:15:\"wx_147212058316\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147212058316@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:4;a:12:{s:7:\"user_id\";s:1:\"3\";s:9:\"user_name\";s:4:\"test\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:20:\"0981472061609@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:5;a:12:{s:7:\"user_id\";s:1:\"1\";s:9:\"user_name\";s:15:\"wx_147202641123\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147202641123@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"4\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-24\";}}}')ON DUPLICATE KEY UPDATE expiry = expiry + 1472356154, data = 'a:6:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472327354;s:12:\"suppliers_id\";s:1:\"0\";s:9:\"wechat_id\";i:1;s:9:\"user_list\";a:6:{i:0;a:12:{s:7:\"user_id\";s:1:\"7\";s:9:\"user_name\";s:15:\"wx_147235451242\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147235451242@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-28\";}i:1;a:12:{s:7:\"user_id\";s:1:\"6\";s:9:\"user_name\";s:4:\"list\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:11:\"list@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-27\";}i:2;a:12:{s:7:\"user_id\";s:1:\"5\";s:9:\"user_name\";s:15:\"wx_147220851564\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147220851564@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-26\";}i:3;a:12:{s:7:\"user_id\";s:1:\"4\";s:9:\"user_name\";s:15:\"wx_147212058316\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147212058316@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:4;a:12:{s:7:\"user_id\";s:1:\"3\";s:9:\"user_name\";s:4:\"test\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:20:\"0981472061609@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:5;a:12:{s:7:\"user_id\";s:1:\"1\";s:9:\"user_name\";s:15:\"wx_147202641123\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147202641123@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"4\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-24\";}}}'
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472356154', ip = '120.85.219.50', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = '' WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472354354
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('9098ed4ab60c9e3ab92ac2f671f0b391', '1472356154', '112.65.193.13', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472356154', ip = '112.65.193.13', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1472327354;}' WHERE sesskey = '9098ed4ab60c9e3ab92ac2f671f0b391' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472354354
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472327354'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472327354
+
+DESC `weigou`.`site_sessions_data`
+
+INSERT INTO `weigou`.`site_sessions_data` (sesskey, expiry, data) VALUES ('1c0d8409a0fe18b855673373e1ec549f', '1472356334', 'a:6:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472327534;s:12:\"suppliers_id\";s:1:\"0\";s:9:\"wechat_id\";i:1;s:9:\"user_list\";a:6:{i:0;a:12:{s:7:\"user_id\";s:1:\"7\";s:9:\"user_name\";s:15:\"wx_147235451242\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147235451242@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-28\";}i:1;a:12:{s:7:\"user_id\";s:1:\"6\";s:9:\"user_name\";s:4:\"list\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:11:\"list@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-27\";}i:2;a:12:{s:7:\"user_id\";s:1:\"5\";s:9:\"user_name\";s:15:\"wx_147220851564\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147220851564@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-26\";}i:3;a:12:{s:7:\"user_id\";s:1:\"4\";s:9:\"user_name\";s:15:\"wx_147212058316\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147212058316@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:4;a:12:{s:7:\"user_id\";s:1:\"3\";s:9:\"user_name\";s:4:\"test\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:20:\"0981472061609@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:5;a:12:{s:7:\"user_id\";s:1:\"1\";s:9:\"user_name\";s:15:\"wx_147202641123\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147202641123@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"4\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-24\";}}}')ON DUPLICATE KEY UPDATE expiry = expiry + 1472356334, data = 'a:6:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472327534;s:12:\"suppliers_id\";s:1:\"0\";s:9:\"wechat_id\";i:1;s:9:\"user_list\";a:6:{i:0;a:12:{s:7:\"user_id\";s:1:\"7\";s:9:\"user_name\";s:15:\"wx_147235451242\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147235451242@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-28\";}i:1;a:12:{s:7:\"user_id\";s:1:\"6\";s:9:\"user_name\";s:4:\"list\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:11:\"list@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-27\";}i:2;a:12:{s:7:\"user_id\";s:1:\"5\";s:9:\"user_name\";s:15:\"wx_147220851564\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147220851564@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-26\";}i:3;a:12:{s:7:\"user_id\";s:1:\"4\";s:9:\"user_name\";s:15:\"wx_147212058316\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147212058316@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:4;a:12:{s:7:\"user_id\";s:1:\"3\";s:9:\"user_name\";s:4:\"test\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:20:\"0981472061609@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:5;a:12:{s:7:\"user_id\";s:1:\"1\";s:9:\"user_name\";s:15:\"wx_147202641123\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147202641123@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"4\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-24\";}}}'
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472356334', ip = '120.85.219.50', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = '' WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472354534
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('6e95354501af627bf3ae4516fcabbd00', '1472356343', '101.226.125.100', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472356343', ip = '101.226.125.100', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1472327543;}' WHERE sesskey = '6e95354501af627bf3ae4516fcabbd00' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472354543
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472327534'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472327534
+
+DESC `weigou`.`site_sessions_data`
+
+INSERT INTO `weigou`.`site_sessions_data` (sesskey, expiry, data) VALUES ('1c0d8409a0fe18b855673373e1ec549f', '1472356514', 'a:6:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472327714;s:12:\"suppliers_id\";s:1:\"0\";s:9:\"wechat_id\";i:1;s:9:\"user_list\";a:6:{i:0;a:12:{s:7:\"user_id\";s:1:\"7\";s:9:\"user_name\";s:15:\"wx_147235451242\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147235451242@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-28\";}i:1;a:12:{s:7:\"user_id\";s:1:\"6\";s:9:\"user_name\";s:4:\"list\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:11:\"list@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-27\";}i:2;a:12:{s:7:\"user_id\";s:1:\"5\";s:9:\"user_name\";s:15:\"wx_147220851564\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147220851564@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-26\";}i:3;a:12:{s:7:\"user_id\";s:1:\"4\";s:9:\"user_name\";s:15:\"wx_147212058316\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147212058316@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:4;a:12:{s:7:\"user_id\";s:1:\"3\";s:9:\"user_name\";s:4:\"test\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:20:\"0981472061609@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:5;a:12:{s:7:\"user_id\";s:1:\"1\";s:9:\"user_name\";s:15:\"wx_147202641123\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147202641123@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"4\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-24\";}}}')ON DUPLICATE KEY UPDATE expiry = expiry + 1472356514, data = 'a:6:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472327714;s:12:\"suppliers_id\";s:1:\"0\";s:9:\"wechat_id\";i:1;s:9:\"user_list\";a:6:{i:0;a:12:{s:7:\"user_id\";s:1:\"7\";s:9:\"user_name\";s:15:\"wx_147235451242\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147235451242@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-28\";}i:1;a:12:{s:7:\"user_id\";s:1:\"6\";s:9:\"user_name\";s:4:\"list\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:11:\"list@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-27\";}i:2;a:12:{s:7:\"user_id\";s:1:\"5\";s:9:\"user_name\";s:15:\"wx_147220851564\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147220851564@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-26\";}i:3;a:12:{s:7:\"user_id\";s:1:\"4\";s:9:\"user_name\";s:15:\"wx_147212058316\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147212058316@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:4;a:12:{s:7:\"user_id\";s:1:\"3\";s:9:\"user_name\";s:4:\"test\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:20:\"0981472061609@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:5;a:12:{s:7:\"user_id\";s:1:\"1\";s:9:\"user_name\";s:15:\"wx_147202641123\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147202641123@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"4\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-24\";}}}'
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472356514', ip = '120.85.219.50', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = '' WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472354714
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472354714
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('6619d0c5f9203cf5c1fa039d206d6881', '1472356519', '180.153.206.22', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472356519', ip = '180.153.206.22', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1472327719;}' WHERE sesskey = '6619d0c5f9203cf5c1fa039d206d6881' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472354719
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE add_time >= '1472327714'
+
+SELECT COUNT(*) FROM `weigou`.`site_order_info` WHERE pay_time >= 1472327714
+
+DESC `weigou`.`site_sessions_data`
+
+INSERT INTO `weigou`.`site_sessions_data` (sesskey, expiry, data) VALUES ('1c0d8409a0fe18b855673373e1ec549f', '1472356694', 'a:6:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472327894;s:12:\"suppliers_id\";s:1:\"0\";s:9:\"wechat_id\";i:1;s:9:\"user_list\";a:6:{i:0;a:12:{s:7:\"user_id\";s:1:\"7\";s:9:\"user_name\";s:15:\"wx_147235451242\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147235451242@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-28\";}i:1;a:12:{s:7:\"user_id\";s:1:\"6\";s:9:\"user_name\";s:4:\"list\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:11:\"list@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-27\";}i:2;a:12:{s:7:\"user_id\";s:1:\"5\";s:9:\"user_name\";s:15:\"wx_147220851564\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147220851564@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-26\";}i:3;a:12:{s:7:\"user_id\";s:1:\"4\";s:9:\"user_name\";s:15:\"wx_147212058316\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147212058316@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:4;a:12:{s:7:\"user_id\";s:1:\"3\";s:9:\"user_name\";s:4:\"test\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:20:\"0981472061609@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:5;a:12:{s:7:\"user_id\";s:1:\"1\";s:9:\"user_name\";s:15:\"wx_147202641123\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147202641123@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"4\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-24\";}}}')ON DUPLICATE KEY UPDATE expiry = expiry + 1472356694, data = 'a:6:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1472327894;s:12:\"suppliers_id\";s:1:\"0\";s:9:\"wechat_id\";i:1;s:9:\"user_list\";a:6:{i:0;a:12:{s:7:\"user_id\";s:1:\"7\";s:9:\"user_name\";s:15:\"wx_147235451242\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147235451242@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-28\";}i:1;a:12:{s:7:\"user_id\";s:1:\"6\";s:9:\"user_name\";s:4:\"list\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:11:\"list@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-27\";}i:2;a:12:{s:7:\"user_id\";s:1:\"5\";s:9:\"user_name\";s:15:\"wx_147220851564\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147220851564@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-26\";}i:3;a:12:{s:7:\"user_id\";s:1:\"4\";s:9:\"user_name\";s:15:\"wx_147212058316\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147212058316@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:4;a:12:{s:7:\"user_id\";s:1:\"3\";s:9:\"user_name\";s:4:\"test\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"1956-01-01\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:20:\"0981472061609@qq.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"0\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-25\";}i:5;a:12:{s:7:\"user_id\";s:1:\"1\";s:9:\"user_name\";s:15:\"wx_147202641123\";s:3:\"sex\";s:1:\"0\";s:8:\"birthday\";s:10:\"0000-00-00\";s:12:\"mobile_phone\";s:0:\"\";s:5:\"email\";s:26:\"wx_147202641123@zenlun.com\";s:12:\"is_validated\";s:1:\"0\";s:10:\"user_money\";s:4:\"0.00\";s:12:\"frozen_money\";s:4:\"0.00\";s:11:\"rank_points\";s:1:\"4\";s:10:\"pay_points\";s:1:\"0\";s:8:\"reg_time\";s:10:\"2016-08-24\";}}}'
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472356694', ip = '120.85.219.50', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = '' WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472354894
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('cc9a62d5fd338333530e4f8f9dc2d941', '1472356700', '61.151.228.22', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472356700', ip = '61.151.228.22', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1472327900;}' WHERE sesskey = 'cc9a62d5fd338333530e4f8f9dc2d941' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472354900
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT data, expiry FROM `weigou`.`site_sessions_data` WHERE sesskey = '1c0d8409a0fe18b855673373e1ec549f'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `weigou`.`site_drp_shop` where `audit` = "1" 
+
+SELECT * FROM `weigou`.`site_drp_shop` where `audit` = "1"  ORDER BY id DESC LIMIT 15
+
+select user_name from `weigou`.`site_users` where user_id = 6
+
+select user_name from `weigou`.`site_users` where user_id = 1
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472355048
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472355048
+
+INSERT INTO `weigou`.`site_sessions` (sesskey, expiry, ip, data) VALUES ('73a89da3d46af00ce7f0f152270dd9ad', '1472356874', '180.153.214.152', 'a:0:{}')
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+UPDATE `weigou`.`site_sessions` SET expiry = '1472356874', ip = '180.153.214.152', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1472328074;}' WHERE sesskey = '73a89da3d46af00ce7f0f152270dd9ad' LIMIT 1
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472355074
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '2200b00cf134203c8f1038e4e921e272'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `weigou`.`site_sessions` WHERE sesskey = '2200b00cf134203c8f1038e4e921e272'
+
+SELECT code, value FROM `weigou`.`site_shop_config` WHERE parent_id > 0
+
+DELETE FROM `weigou`.`site_sessions_data` WHERE expiry < 1472355258
+
+DELETE FROM `weigou`.`site_sessions` WHERE expiry < 1472355258
+
