@@ -26,7 +26,7 @@ $modules['01_menu_system']['admin_list']             = 'privilege.php?act=list';
 //$modules['01_menu_system']['agency_list']            = 'agency.php?act=list';
 //$modules['01_menu_system']['suppliers_list']         = 'suppliers.php?act=list';
 //$modules['01_menu_system']['shop_authorized']             = 'license.php?act=list_edit';
-$modules['01_menu_system']['shop_authorized']             = '../index.php?m=admin&a=license';
+//$modules['01_menu_system']['shop_authorized']             = '../index.php?m=admin&a=license';
 
 // 商品
 $modules['02_menu_goods']['01_goods_list']       = 'goods.php?act=list'; // 商品列表
@@ -83,13 +83,13 @@ $modules['05_menu_content']['02_articlecat_list']        = 'articlecat.php?act=l
 
 // 营销
 //$modules['06_menu_promotion']['02_snatch_list']          = 'snatch.php?act=list';
-$modules['06_menu_promotion']['04_bonustype_list']       = 'bonus.php?act=list';
-// $modules['06_menu_promotion']['06_pack_list']            = 'pack.php?act=list';
-// $modules['06_menu_promotion']['07_card_list']            = 'card.php?act=list';
-$modules['06_menu_promotion']['08_group_buy']            = 'group_buy.php?act=list';
-// $modules['06_menu_promotion']['09_topic']                = 'topic.php?act=list';
-//$modules['06_menu_promotion']['10_auction']              = 'auction.php?act=list';
-$modules['06_menu_promotion']['12_favourable']           = 'favourable.php?act=list';
+// $modules['06_menu_promotion']['04_bonustype_list']       = 'bonus.php?act=list';
+// // $modules['06_menu_promotion']['06_pack_list']            = 'pack.php?act=list';
+// // $modules['06_menu_promotion']['07_card_list']            = 'card.php?act=list';
+// $modules['06_menu_promotion']['08_group_buy']            = 'group_buy.php?act=list';
+// // $modules['06_menu_promotion']['09_topic']                = 'topic.php?act=list';
+// //$modules['06_menu_promotion']['10_auction']              = 'auction.php?act=list';
+// $modules['06_menu_promotion']['12_favourable']           = 'favourable.php?act=list';
 //$modules['06_menu_promotion']['13_wholesale']            = 'wholesale.php?act=list';
 //$modules['06_menu_promotion']['14_package_list']         = 'package.php?act=list';
 //$modules['03_promotion']['ebao_commend']            = 'ebao_commend.php?act=list';
@@ -108,17 +108,17 @@ $modules['07_menu_stats']['report_users']                = 'users_order.php?act=
 //$modules['07_menu_stats']['visit_buy_per']               = 'visit_sold.php?act=list';
 
 // 模板
-$modules['08_menu_template']['02_template_select']       = 'template.php?act=list';
+//$modules['08_menu_template']['02_template_select']       = 'template.php?act=list';
 // $modules['08_menu_template']['03_template_setup']        = 'template.php?act=setup';
 // $modules['08_menu_template']['04_template_library']      = 'template.php?act=library';
-$modules['08_menu_template']['05_edit_languages']        = 'edit_languages.php?act=list';
+//$modules['08_menu_template']['05_edit_languages']        = 'edit_languages.php?act=list';
 // $modules['08_menu_template']['06_template_backup']       = 'template.php?act=backup_setting';
-$modules['08_menu_template']['mail_template_manage']     = 'mail_template.php?act=list';
+// $modules['08_menu_template']['mail_template_manage']     = 'mail_template.php?act=list';
 
 // 数据库
-$modules['09_menu_backup']['02_db_manage']               = 'database.php?act=backup';
-$modules['09_menu_backup']['03_db_optimize']             = 'database.php?act=optimize';
-$modules['09_menu_backup']['04_sql_query']               = 'sql.php?act=main';
+// $modules['09_menu_backup']['02_db_manage']               = 'database.php?act=backup';
+// $modules['09_menu_backup']['03_db_optimize']             = 'database.php?act=optimize';
+// $modules['09_menu_backup']['04_sql_query']               = 'sql.php?act=main';
 //$modules['09_menu_backup']['05_synchronous']             = 'integrate.php?act=sync';
 //$modules['09_menu_backup']['convert']                    = 'convert.php?act=main';
 
@@ -133,9 +133,9 @@ $modules['09_menu_backup']['04_sql_query']               = 'sql.php?act=main';
 //$modules['10_menu_tools']['email_list']           = 'email_list.php?act=list';
 //$modules['10_menu_tools']['magazine_list']        = 'magazine_list.php?act=list';
 //$modules['10_menu_tools']['attention_list']       = 'attention_list.php?act=list';
-$modules['10_menu_tools']['04_view_sendlist']        = 'view_sendlist.php?act=list';
+// $modules['10_menu_tools']['04_view_sendlist']        = 'view_sendlist.php?act=list';
 
-$modules['10_menu_tools']['03_mail_settings']           = 'shop_config.php?act=mail_settings';
+// $modules['10_menu_tools']['03_mail_settings']           = 'shop_config.php?act=mail_settings';
 //$modules['10_menu_tools']['06_plugins']                 = 'plugins.php?act=list';
 //$modules['10_menu_tools']['07_cron_schcron']            = 'cron.php?act=list';
 //$modules['10_menu_tools']['sitemap']                    = 'sitemap.php';
@@ -148,7 +148,7 @@ $modules['10_menu_tools']['05_captcha_manage']             = 'captcha_manage.php
 
 $modules['10_menu_tools']['01_navigator']                 = '../index.php?m=admin&c=navigator';
 $modules['10_menu_tools']['02_authorization']             = '../index.php?m=admin&c=authorization';
-$modules['10_menu_tools']['99_upgrade']                 = '../index.php?m=admin&c=upgrade';
+// $modules['10_menu_tools']['99_upgrade']                 = '../index.php?m=admin&c=upgrade';
 
 /*DRP_START*/
 // 微分销

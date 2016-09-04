@@ -19,10 +19,7 @@
         class="tab-back" id="detail-tab">{$lang.tab_detail}</span><span
         class="tab-back" id="mix-tab">{$lang.tab_mix}</span>{if $goods_type_list}<span
         class="tab-back" id="properties-tab">{$lang.tab_properties}</span>{/if}<span
-        class="tab-back" id="gallery-tab">{$lang.tab_gallery}</span><span
-        class="tab-back" id="linkgoods-tab">{$lang.tab_linkgoods}</span>{if $code eq ''}<span
-        class="tab-back" id="groupgoods-tab">{$lang.tab_groupgoods}</span>{/if}<span
-        class="tab-back" id="article-tab">{$lang.tab_article}</span>
+        class="tab-back" id="gallery-tab">{$lang.tab_gallery}</span>
       </p>
     </div>
 
@@ -128,7 +125,7 @@
           {/if}
 
           <!--鍟嗗搧浼樻儬浠锋牸-->
-          <tr>
+          <!--<tr>
             <td class="label"><a href="javascript:showNotice('volumePrice');" title="{$lang.form_notice}"><img src="images/notice.gif" width="16" height="16" border="0" alt="{$lang.form_notice}"></a>{$lang.lab_volume_price}</td>
             <td>
               <table width="100%" id="tbody-volume" align="center">
@@ -148,7 +145,7 @@
               </table>
               <span class="notice-span" {if $help_open}style="display:block" {else} style="display:none" {/if} id="volumePrice">{$lang.notice_volume_price}</span>
             </td>
-          </tr>
+          </tr>-->
           <!--鍟嗗搧浼樻儬浠锋牸 end -->
 
           <tr>

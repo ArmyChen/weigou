@@ -29,7 +29,7 @@ function get_intro_list()
         'is_new'     => $GLOBALS['_LANG']['is_new'],
         'is_hot'     => $GLOBALS['_LANG']['is_hot'],
         'is_promote' => $GLOBALS['_LANG']['is_promote'],
-        'all_type' => $GLOBALS['_LANG']['all_type'],
+    //    'all_type' => $GLOBALS['_LANG']['all_type'],
     );
 }
 

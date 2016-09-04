@@ -95,34 +95,11 @@
 				</section>
 
 				<section class="m-top1px padding-all b-color-f goods-attr j-goods-attr j-show-div">
-					<div class="dis-box">
-						<label class="t-remark g-t-temark">已选</label>
-						<div class="box-flex t-goods1 ">请选择</div>
-						<span class="t-jiantou"><i class="iconfont icon-jiantou tf-180"></i></span>
-					</div>
+					
 					<!--商品属性弹出层star-->
-					<div class="mask-filter-div"></div>
-					<div class="show-goods-attr j-filter-show-div ts-3 b-color-1">
-						<section class="s-g-attr-title b-color-1  product-list-small">
-							<div class="product-div">
-								<img src="{$goods.goods_img}" alt="{$goods.goods_name}" class="product-list-img" />
-								<div class="product-text">
-									<div class="dis-box">
-										<h4 class="box-flex">{$goods.goods_style_name}</h4>
-										<i class="iconfont icon-guanbi1 show-div-guanbi"></i>
-									</div>
-									<p><span class="p-price t-first" id="ECS_GOODS_AMOUNT">
-										<!--{if $goods.is_promote and $goods.gmt_end_time } 促销-->
-										{$goods.promote_price}
-										<!--{else}-->
-										{$goods.shop_price_formated}
-										<!--{/if}--></span>
-									</p>
-									<p class="dis-box p-t-remark"><span class="box-flex">库存:{$goods.goods_number}</span></p>
-								</div>
-							</div>
-						</section>
-						<section class="s-g-attr-con swiper-scroll b-color-f padding-all m-top1px">
+				
+				
+						<section class="">
 							<div class="swiper-wrapper">
 								<div class="swiper-slide">
 									<!-- {foreach name=spec from=$specification item=spec key=spec_key} -->
@@ -148,14 +125,25 @@
 							</div>
 							<div class="swiper-scrollbar"></div>
 						</section>
-						<section class="ect-button-more dis-box padding-all">
+						<!--<section class="ect-button-more dis-box padding-all">
 							<a class="btn-cart box-flex" type="button" onClick="addToCart({$goods.goods_id});">加入购物车</a>
 							<a class="btn-submit box-flex" type="button" onClick="addToCart_quick({$goods.goods_id});">立即购买</a>
-						</section>
+						</section>-->
 						</form>
-					</div>
 					<!--商品属性弹出层end-->
+
+					<div class="dis-box">
+						<label class="t-remark g-t-temark">已选</label>
+						<div class="box-flex t-goods1 ">请选择</div>
+						<!--<span class="t-jiantou"><i class="iconfont icon-jiantou tf-180"></i></span>-->
+					</div>
 			</section>
+			<style>
+				.ect-select{
+					margin:0px !important;
+					margin-bottom: 10px !important;
+				}
+			</style>
 			<!--comment-->
 		<section class="m-top04 goods-evaluation">
 			<a href="{:url('goods/comment_list',array('id'=>$this->_var['goods']['goods_id']))}">
@@ -315,14 +303,14 @@ $(function() {
 		/*弹出层方式*/
 		$(".j-show-div").click(function() {
 			document.addEventListener("touchmove", handler, false);
-			$(this).find(".j-filter-show-div").addClass("show");
-			$(".mask-filter-div").addClass("show");
+		//	$(this).find(".j-filter-show-div").addClass("show");
+		//	$(".mask-filter-div").addClass("show");
 		});
 		/*关闭弹出层*/
 		$(".mask-filter-div,.show-div-guanbi").click(function() {
 			document.removeEventListener("touchmove", handler, false);
-			$(".j-filter-show-div").removeClass("show");
-			$(".mask-filter-div").removeClass("show");
+		//	$(".j-filter-show-div").removeClass("show");
+		//	$(".mask-filter-div").removeClass("show");
 			return false;
 		});
 		/*商品详情相册切换*/

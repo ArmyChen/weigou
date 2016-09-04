@@ -26,27 +26,27 @@
 					<a class="select-title padding-all j-menu-select">
 						<label class="fl"><?php echo $this->_var['lang']['brand']; ?></label>
 						<span class="fr t-jiantou j-t-jiantou" id="j-t-jiantou"><em class="fl">
-						<?php $_from = $this->_var['brands']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'brand_0_50335800_1472826684');$this->_foreach['brand'] = array('total' => count($_from), 'iteration' => 0);
+						<?php $_from = $this->_var['brands']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'brand_0_65925800_1473002466');$this->_foreach['brand'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['brand']['total'] > 0):
-    foreach ($_from AS $this->_var['brand_0_50335800_1472826684']):
+    foreach ($_from AS $this->_var['brand_0_65925800_1473002466']):
         $this->_foreach['brand']['iteration']++;
 ?> 
-						<?php if ($this->_var['brand_0_50335800_1472826684']['brand_id'] == $this->_var['brand_id']): ?> 
-						<?php echo $this->_var['brand_0_50335800_1472826684']['brand_name']; ?>
+						<?php if ($this->_var['brand_0_65925800_1473002466']['brand_id'] == $this->_var['brand_id']): ?> 
+						<?php echo $this->_var['brand_0_65925800_1473002466']['brand_name']; ?>
 						<?php endif; ?> 
 						<?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
 						</em><i class="iconfont icon-jiantou tf-180 ts-2"></i></span>
 					</a>
 					<ul class="j-sub-menu padding-all j-get-one" data-istrue="true">
-						<?php $_from = $this->_var['brands']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'brand_0_50352400_1472826684');$this->_foreach['brands'] = array('total' => count($_from), 'iteration' => 0);
+						<?php $_from = $this->_var['brands']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'brand_0_65925800_1473002466');$this->_foreach['brands'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['brands']['total'] > 0):
-    foreach ($_from AS $this->_var['brand_0_50352400_1472826684']):
+    foreach ($_from AS $this->_var['brand_0_65925800_1473002466']):
         $this->_foreach['brands']['iteration']++;
 ?>
 						<li class="ect-select" id="brand-select">
-							<label class="ts-1"><?php echo htmlspecialchars($this->_var['brand_0_50352400_1472826684']['brand_name']); ?>
+							<label class="ts-1"><?php echo htmlspecialchars($this->_var['brand_0_65925800_1473002466']['brand_name']); ?>
 								<i class="fr iconfont icon-gou ts-1"></i>
-								<input type="hidden" value="<?php echo $this->_var['brand_0_50352400_1472826684']['brand_id']; ?>" />
+								<input type="hidden" value="<?php echo $this->_var['brand_0_65925800_1473002466']['brand_id']; ?>" />
 							</label>
 						</li>
 						<?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>

@@ -99,34 +99,11 @@ if ($this->_foreach['no']['total'] > 0):
 				</section>
 
 				<section class="m-top1px padding-all b-color-f goods-attr j-goods-attr j-show-div">
-					<div class="dis-box">
-						<label class="t-remark g-t-temark">已选</label>
-						<div class="box-flex t-goods1 ">请选择</div>
-						<span class="t-jiantou"><i class="iconfont icon-jiantou tf-180"></i></span>
-					</div>
 					
-					<div class="mask-filter-div"></div>
-					<div class="show-goods-attr j-filter-show-div ts-3 b-color-1">
-						<section class="s-g-attr-title b-color-1  product-list-small">
-							<div class="product-div">
-								<img src="<?php echo $this->_var['goods']['goods_img']; ?>" alt="<?php echo $this->_var['goods']['goods_name']; ?>" class="product-list-img" />
-								<div class="product-text">
-									<div class="dis-box">
-										<h4 class="box-flex"><?php echo $this->_var['goods']['goods_style_name']; ?></h4>
-										<i class="iconfont icon-guanbi1 show-div-guanbi"></i>
-									</div>
-									<p><span class="p-price t-first" id="ECS_GOODS_AMOUNT">
-										<?php if ($this->_var['goods']['is_promote'] && $this->_var['goods']['gmt_end_time']): ?>
-										<?php echo $this->_var['goods']['promote_price']; ?>
-										<?php else: ?>
-										<?php echo $this->_var['goods']['shop_price_formated']; ?>
-										<?php endif; ?></span>
-									</p>
-									<p class="dis-box p-t-remark"><span class="box-flex">库存:<?php echo $this->_var['goods']['goods_number']; ?></span></p>
-								</div>
-							</div>
-						</section>
-						<section class="s-g-attr-con swiper-scroll b-color-f padding-all m-top1px">
+					
+				
+				
+						<section class="">
 							<div class="swiper-wrapper">
 								<div class="swiper-slide">
 									<?php $_from = $this->_var['specification']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('spec_key', 'spec');$this->_foreach['spec'] = array('total' => count($_from), 'iteration' => 0);
@@ -158,14 +135,25 @@ if ($this->_foreach['spec']['total'] > 0):
 							</div>
 							<div class="swiper-scrollbar"></div>
 						</section>
-						<section class="ect-button-more dis-box padding-all">
+						<!--<section class="ect-button-more dis-box padding-all">
 							<a class="btn-cart box-flex" type="button" onClick="addToCart(<?php echo $this->_var['goods']['goods_id']; ?>);">加入购物车</a>
 							<a class="btn-submit box-flex" type="button" onClick="addToCart_quick(<?php echo $this->_var['goods']['goods_id']; ?>);">立即购买</a>
-						</section>
+						</section>-->
 						</form>
-					</div>
 					
+
+					<div class="dis-box">
+						<label class="t-remark g-t-temark">已选</label>
+						<div class="box-flex t-goods1 ">请选择</div>
+						<!--<span class="t-jiantou"><i class="iconfont icon-jiantou tf-180"></i></span>-->
+					</div>
 			</section>
+			<style>
+				.ect-select{
+					margin:0px !important;
+					margin-bottom: 10px !important;
+				}
+			</style>
 			
 		<section class="m-top04 goods-evaluation">
 			<a href="<?php echo url('goods/comment_list',array('id'=>$this->_var['goods']['goods_id']));?>">
@@ -326,14 +314,14 @@ $(function() {
 		/*弹出层方式*/
 		$(".j-show-div").click(function() {
 			document.addEventListener("touchmove", handler, false);
-			$(this).find(".j-filter-show-div").addClass("show");
-			$(".mask-filter-div").addClass("show");
+		//	$(this).find(".j-filter-show-div").addClass("show");
+		//	$(".mask-filter-div").addClass("show");
 		});
 		/*关闭弹出层*/
 		$(".mask-filter-div,.show-div-guanbi").click(function() {
 			document.removeEventListener("touchmove", handler, false);
-			$(".j-filter-show-div").removeClass("show");
-			$(".mask-filter-div").removeClass("show");
+		//	$(".j-filter-show-div").removeClass("show");
+		//	$(".mask-filter-div").removeClass("show");
 			return false;
 		});
 		/*商品详情相册切换*/
